@@ -1,0 +1,6 @@
+path: C:/Users/KNG/Desktop/MODS/workspace/train
+train: images
+val: images
+test: 
+names:
+  0: checked

@@ -1,0 +1,10 @@
+QProgressBar{
+    height:8px;
+    width:120px;
+    border:none;
+    background-color:rgba(0,0,0,0);
+}
+QProgressBar::chunk{
+    margin: 5px;
+    background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:0,stop:0 #99ffff,stop:1 #9900ff);
+}

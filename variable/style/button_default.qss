@@ -1,0 +1,22 @@
+QPushButton{
+	font: 9pt "微软雅黑";
+	background-color: rgb(125, 125, 125);
+	color: rgb(255, 255, 255);
+	border:none;
+	height:24px;
+	width:120px;
+}
+QPushButton:hover{
+	font: 9pt "微软雅黑";
+	background-color: rgb(111, 111, 111);
+	color: rgb(255, 255, 255);
+	height:24px;
+	width:120px;
+}
+QPushButton:pressed{
+	font: 9pt "微软雅黑";
+	background-color: rgb(86, 86, 86);
+	color: rgb(255, 255, 255);
+	height:24px;
+	width:120px;
+}

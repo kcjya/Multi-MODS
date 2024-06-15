@@ -1,0 +1,6 @@
+{
+  "support": ["mp4","txt","png","jpeg","jpg","py","html","json","f"],
+  "image": ["png","jpg","jpeg"],
+  "video": ["mp4","avi"],
+  "text": ["txt","json","html","py","md"]
+}

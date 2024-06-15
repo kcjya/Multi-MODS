@@ -1,0 +1,68 @@
+
+QMainWindow{background-color:#404040;}
+QSplitter{background-color:#404040;}
+QMenuBar{background-color:#404040;}
+QMenuBar::item:selected{background-color:#808080;}
+QMenu{background-color:#404040;}
+QMenu::item:selected{background-color:#808080;}
+QWidget{color:#E0E0E0;}
+
+QToolButton:hover{background-color:#808080;}
+QToolBar::separator{width:1px;background-color:#808080;}
+QToolBar{border:none;}
+QFontComboBox{background-color:#404040;border:none;}
+QFontComboBox QAbstractItemView{background-color:#404040;border:none;}
+
+QTableWidget{background-color:#404040;}
+QTableWidget::item{background-color:#404040;border:none;}
+QTableWidget::item:hover{background-color:#808080;}
+QHeaderView::section{background-color:#404040;border:none;}
+QTextBrowser{background-color:#404040;border:none;}
+QDockWidget{background-color:#404040;}
+
+QTabWidget{background-color:#404040;}
+QTabBar::tab::QWidget{color:#E0E0E0;background-color:#404040;border:none;}
+
+QTabBar::tab:selected{background-color:#808080;}
+QTabBar::tab:hover:!selected{background-color:#404040;}
+
+
+QScrollBar:vertical{
+background-color:#404040;
+width:8px;
+border:none;
+}
+
+QScrollBar::handle{
+background-color:#808080;
+width:6px;
+border-radius:3px;
+}
+QScrollBar::sub-page,QScrollBar::add-page{
+background-color:#404040;
+}
+QTreeView{background-color:#404040;}
+QTreeView::branch:has-siblings:!adjoins-item {
+    border-image: url(variable/icons/vline.png) 0;
+}
+
+QTreeView::branch:has-siblings:adjoins-item {
+    border-image: url(variable/icons/vline.png) 0;
+}
+
+QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+    border-image: url(variable/icons/branch-end.png) 0;
+}
+
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings {
+        border-image: none;
+        image: url(variable/icons/iconsbranch-closed.png);
+}
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings  {
+        border-image: none;
+        image: url(variable/icons/branch-open.png);
+}
+
