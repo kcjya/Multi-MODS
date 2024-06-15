@@ -15,4 +15,10 @@ Multi-model object detection system is hereinafter referred to as: Multi-MODS, a
 - Interface introduction, simple operation, multi-process technology, farewell interface card.
 
 ## Update
-- 2024/06/15: Please download the source file
+- 2024/06/15: Multi-MODS(Python v1.0.1).zip
+
+## Begin
+```python
+click the lancher.exe
+
+```
